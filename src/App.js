@@ -1,11 +1,12 @@
+import Weather from "./Weather";
+
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Hello Weather</h1>
-
+        <Weather />
         <footer>
           The project is coded by Zoe Tucker <br />
           and is open-source on{" "}
