@@ -1,3 +1,15 @@
 .Weather {
   border: 1px solid #dadde1;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+  margin: 35px 0;
+}
+
+.Weather form {
+  margin: 10px;
+  padding: 10px;
+}
+
+.Weather .current-location {
+  text-align: right;
 }

@@ -7,7 +7,7 @@ export default function Weather() {
     <div className="Weather">
       <form>
         <div className="row">
-          <div className="col-9">
+          <div className="col-4">
             <input
               className="form-control"
               type="search"
@@ -15,11 +15,14 @@ export default function Weather() {
               autoFocus="on"
             />
           </div>
-          <div className="col-3">
+          <div className="col-2">
+            <input className="btn btn-success w-50" type="submit" value="Go!" />
+          </div>
+          <div className="col-6 current-location">
             <input
-              className="btn btn-success w-100"
+              className="btn btn-success w-30"
               type="submit"
-              value="Go!"
+              value="📌 Current Location!"
             />
           </div>
         </div>
