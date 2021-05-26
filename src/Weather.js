@@ -26,13 +26,13 @@ export default function Weather() {
       </form>
       <h1>Arlington</h1>
       <ul>
-        <li>Wednesday 15:15</li>
+        <li>Wednesday 3:45</li>
         <li>Clear Sky</li>
       </ul>
       <div className="row">
         <div className="col-6">
           <img
-            src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+            src="https://ssl.gstatic.com/onebox/weather/48/sunny.png"
             alt="clear-sky"
           />{" "}
           80 <span>°F</span> | <span>°C</span>
@@ -48,7 +48,7 @@ export default function Weather() {
           <div className="col">
             <h5>Thurs</h5>
             <img
-              src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+              src="https://ssl.gstatic.com/onebox/weather/48/sunny.png"
               alt="clear-sky"
             />
             <h5>
@@ -72,7 +72,7 @@ export default function Weather() {
           <div className="col">
             <h5>Sat</h5>
             <img
-              src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+              src="https://ssl.gstatic.com/onebox/weather/48/sunny.png"
               alt="clear-sky"
             />
             <h5>
@@ -96,7 +96,7 @@ export default function Weather() {
           <div className="col">
             <h5>Mon</h5>
             <img
-              src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+              src="https://ssl.gstatic.com/onebox/weather/48/sunny.png"
               alt="clear-sky"
             />
             <h5>
