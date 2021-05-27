@@ -42,6 +42,7 @@ export default function Weather() {
       <div className="row">
         <div className="col-6">
           <img
+            className="current-icon"
             src="https://ssl.gstatic.com/onebox/weather/48/sunny.png"
             alt="clear-sky"
           />{" "}

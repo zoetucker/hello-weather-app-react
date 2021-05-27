@@ -16,7 +16,7 @@
 }
 
 .Weather h1 {
-  font-size: 35px;
+  font-size: 50px;
   font-weight: 500;
   margin: 20px 0 0 20px;
   padding: 10px;
@@ -35,7 +35,7 @@
   list-style: none;
 }
 
-.Weather img {
+.Weather .current-icon {
   display: inline-block;
   height: 65px;
   margin: 0 10px 0 20px;
