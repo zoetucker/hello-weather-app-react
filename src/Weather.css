@@ -29,7 +29,7 @@
 }
 
 .Weather li {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 200px;
   line-height: 25px;
   list-style: none;
@@ -60,4 +60,21 @@
 .Weather a {
   color: darkgray;
   text-decoration: none;
+}
+
+.Weather .forecast {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.Weather h5 {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.Weather h4 {
+  font-size: 13px;
+  font-weight: 400;
+  padding-top: 10px;
 }

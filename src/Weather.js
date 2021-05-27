@@ -38,7 +38,6 @@ export default function Weather() {
           <li>Clear Sky</li>
         </ul>
       </div>
-
       <div className="row">
         <div className="col-6">
           <img
@@ -58,37 +57,33 @@ export default function Weather() {
         </div>
 
         <div className="col-6">
-          <div>
+          <div className="today-details">
             <ul>
               <li>Humidity: 100%</li>
               <li>Wind Speed: 5 mph</li>
             </ul>
           </div>
         </div>
+      </div>
 
-        {/* <div className="row">
+      <div className="forecast">
+        <div className="row">
           <div className="col">
             <h5>Thurs</h5>
             <img
               src="https://ssl.gstatic.com/onebox/weather/48/sunny.png"
               alt="clear-sky"
             />
-            <h5>
-              <span>70°</span>
-              <span>80°</span>
-            </h5>
+            <h4> 70° 80°</h4>
           </div>
 
           <div className="col">
             <h5>Fri</h5>
             <img
-              src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+              src="https://ssl.gstatic.com/onebox/weather/48/sunny.png"
               alt="clear-sky"
             />
-            <h5>
-              <span>70°</span>
-              <span>80°</span>
-            </h5>
+            <h4> 70° 80°</h4>
           </div>
 
           <div className="col">
@@ -97,22 +92,16 @@ export default function Weather() {
               src="https://ssl.gstatic.com/onebox/weather/48/sunny.png"
               alt="clear-sky"
             />
-            <h5>
-              <span>70°</span>
-              <span>80°</span>
-            </h5>
+            <h4> 70° 80°</h4>
           </div>
 
           <div className="col">
             <h5>Sun</h5>
             <img
-              src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+              src="https://ssl.gstatic.com/onebox/weather/48/sunny.png"
               alt="clear-sky"
             />
-            <h5>
-              <span>70°</span>
-              <span>80°</span>
-            </h5>
+            <h4> 70° 80°</h4>
           </div>
 
           <div className="col">
@@ -121,24 +110,18 @@ export default function Weather() {
               src="https://ssl.gstatic.com/onebox/weather/48/sunny.png"
               alt="clear-sky"
             />
-            <h5>
-              <span>70°</span>
-              <span>80°</span>
-            </h5>
+            <h4> 70° 80°</h4>
           </div>
 
           <div className="col">
-            <h5>Tues</h5>
+            <h5>Tue</h5>
             <img
-              src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+              src="https://ssl.gstatic.com/onebox/weather/48/sunny.png"
               alt="clear-sky"
             />
-            <h5>
-              <span>70°</span>
-              <span>80°</span>
-            </h5>
+            <h4> 70° 80°</h4>
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   );
