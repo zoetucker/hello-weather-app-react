@@ -26,7 +26,7 @@ export default function Weather() {
             <input
               className="btn btn-success w-30"
               type="submit"
-              value="📌 Current Location!"
+              value="📌 Current Location"
             />
           </div>
         </div>
