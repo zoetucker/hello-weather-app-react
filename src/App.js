@@ -8,7 +8,7 @@ function App() {
       <div className="container">
         <Weather />
         <footer>
-          The project is coded by Zoe Tucker <br />
+          The project is coded by Zoe Tucker 👩‍💻 <br />
           and is open-source on{" "}
           <a
             href="https://github.com/zoetucker/hello-weather-app-react"

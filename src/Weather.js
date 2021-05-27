@@ -16,7 +16,11 @@ export default function Weather() {
             />
           </div>
           <div className="col-2">
-            <input className="btn btn-success w-50" type="submit" value="Go!" />
+            <input
+              className="btn btn-success w-100"
+              type="submit"
+              value="Go!"
+            />
           </div>
           <div className="col-6 current-location">
             <input
@@ -38,12 +42,14 @@ export default function Weather() {
             src="https://ssl.gstatic.com/onebox/weather/48/sunny.png"
             alt="clear-sky"
           />{" "}
-          80 <span>°F</span> | <span>°C</span>
+          <span className="current-temp">80</span>
+          <span className="temp-units">°F | °C</span>
         </div>
+
         <div className="col-6">
           <ul>
-            <li>Humidity: 80%</li>
-            <li>Wind Speed: 3 mph</li>
+            <li>Humidity: 100%</li>
+            <li>Wind Speed: 5 mph</li>
           </ul>
         </div>
 
