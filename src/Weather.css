@@ -29,19 +29,28 @@
 }
 
 .Weather li {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 200px;
   line-height: 25px;
   list-style: none;
 }
 
+.Weather img {
+  display: inline-block;
+  height: 65px;
+  margin: 0 10px 0 20px;
+  position: relative;
+  bottom: 10px;
+}
+
 .Weather .current-temp {
   font-weight: 500;
   font-size: 50px;
-  margin-left: 10px;
+  margin-left: 0;
 }
 
 .Weather .temp-units {
+  font-size: 11px;
   position: relative;
   bottom: 35px;
   margin: 10px;

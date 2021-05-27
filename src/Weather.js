@@ -32,10 +32,13 @@ export default function Weather() {
         </div>
       </form>
       <h1>Arlington</h1>
-      <ul>
-        <li>Wednesday 3:45</li>
-        <li>Clear Sky</li>
-      </ul>
+      <div>
+        <ul>
+          <li>Wednesday 3:45</li>
+          <li>Clear Sky</li>
+        </ul>
+      </div>
+
       <div className="row">
         <div className="col-6">
           <img
@@ -47,13 +50,15 @@ export default function Weather() {
         </div>
 
         <div className="col-6">
-          <ul>
-            <li>Humidity: 100%</li>
-            <li>Wind Speed: 5 mph</li>
-          </ul>
+          <div>
+            <ul>
+              <li>Humidity: 100%</li>
+              <li>Wind Speed: 5 mph</li>
+            </ul>
+          </div>
         </div>
 
-        <div className="row">
+        {/* <div className="row">
           <div className="col">
             <h5>Thurs</h5>
             <img
@@ -125,7 +130,7 @@ export default function Weather() {
               <span>80°</span>
             </h5>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
