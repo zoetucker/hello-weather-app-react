@@ -47,7 +47,14 @@ export default function Weather() {
             alt="clear-sky"
           />{" "}
           <span className="current-temp">80</span>
-          <span className="temp-units">°F | °C</span>
+          <div className="temp-units">
+            <span className="fahrenheit-unit">
+              <a href="">°F |</a>
+            </span>
+            <span className="celsius-unit">
+              <a href="">°C</a>
+            </span>
+          </div>
         </div>
 
         <div className="col-6">

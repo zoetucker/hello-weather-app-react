@@ -40,18 +40,24 @@
   height: 65px;
   margin: 0 10px 0 20px;
   position: relative;
-  bottom: 10px;
+  bottom: 15px;
 }
 
 .Weather .current-temp {
   font-weight: 500;
-  font-size: 50px;
+  font-size: 64px;
   margin-left: 0;
 }
 
 .Weather .temp-units {
-  font-size: 11px;
+  display: inline-block;
+  margin: 0 10px;
   position: relative;
-  bottom: 35px;
-  margin: 10px;
+  bottom: 45px;
+  font-size: 12px;
+}
+
+.Weather a {
+  color: darkgray;
+  text-decoration: none;
 }
