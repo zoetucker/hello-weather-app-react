@@ -1,8 +1,18 @@
 import React from "react";
+import axios from "axios";
 
 import "./Weather.css";
 
 export default function Weather() {
+  function handleResponse(response) {
+    console.log(response.data);
+  }
+
+  const apiKey = "f530d75c7e8984e88ff649a70bb0bf68";
+  let city = "Bangkok";
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
+  axios.get(apiUrl).then(handleResponse);
+
   return (
     <div className="Weather">
       <form>
@@ -59,6 +69,7 @@ export default function Weather() {
         <div className="col-6">
           <div className="today-details">
             <ul>
+              <li>Feels like 90°F</li>
               <li>Humidity: 100%</li>
               <li>Wind Speed: 5 mph</li>
             </ul>
