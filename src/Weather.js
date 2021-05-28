@@ -3,26 +3,25 @@ import axios from "axios";
 
 import "./Weather.css";
 
-export default function Weather() {
-  const [ready, setReady] = useState(false);
-  const [weatherData, setWeatherData] = useState({});
+export default function Weather(props) {
+  const [weatherData, setWeatherData] = useState({ ready: false });
 
   function handleResponse(response) {
     console.log(response.data);
     setWeatherData({
+      ready: true,
+      dayTime: new Date(response.data.dt * 1000),
       city: response.data.name,
       description: response.data.weather[0].description,
-      weatherIcon: "",
+      weatherIcon: "https://ssl.gstatic.com/onebox/weather/48/sunny.png",
       temperature: response.data.main.temp,
       feelLike: response.data.main.feels_like,
       humidity: response.data.main.humidity,
       wind: response.data.wind.speed,
     });
-
-    setReady(true);
   }
 
-  if (ready) {
+  if (weatherData.ready) {
     return (
       <div className="Weather">
         <form>
@@ -54,16 +53,16 @@ export default function Weather() {
         <h1>{weatherData.city}</h1>
         <div>
           <ul>
-            <li>Wednesday 3:45</li>
-            <li>{weatherData.description}</li>
+            <li>{weatherData.dayTime.getDay()}</li>
+            <li className="text-capitalize">{weatherData.description}</li>
           </ul>
         </div>
         <div className="row">
           <div className="col-6">
             <img
               className="current-icon"
-              src="https://ssl.gstatic.com/onebox/weather/48/sunny.png"
-              alt="clear-sky"
+              src={weatherData.weatherIcon}
+              alt={weatherData.description}
             />{" "}
             <span className="current-temp">
               {Math.round(weatherData.temperature)}
@@ -150,8 +149,8 @@ export default function Weather() {
     );
   } else {
     const apiKey = "f530d75c7e8984e88ff649a70bb0bf68";
-    let city = "Bangkok";
-    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
+
+    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${props.defaultCity}&appid=${apiKey}&units=imperial`;
     axios.get(apiUrl).then(handleResponse);
 
     return "Loading forecast ...";
