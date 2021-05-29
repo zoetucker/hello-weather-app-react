@@ -10,8 +10,8 @@
   margin: 15px 20px;
 }
 
-.Weather .w-100,
-.Weather .w-30 {
+.Weather .w-100:hover,
+.Weather .w-30:hover {
   color: green;
   background-color: white;
 }
