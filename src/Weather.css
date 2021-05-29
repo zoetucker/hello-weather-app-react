@@ -10,7 +10,8 @@
   margin: 15px 20px;
 }
 
-.Weather #click-button:hover {
+.Weather .w-100,
+.Weather .w-30 {
   color: green;
   background-color: white;
 }

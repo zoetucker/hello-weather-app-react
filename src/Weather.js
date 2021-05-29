@@ -55,7 +55,6 @@ export default function Weather(props) {
             </div>
             <div className="col-2">
               <input
-                id="click-buttons"
                 className="btn btn-success w-100"
                 type="submit"
                 value="Go!"
@@ -63,7 +62,6 @@ export default function Weather(props) {
             </div>
             <div className="col-6 current-location">
               <input
-                id="click-buttons"
                 className="btn btn-success w-30"
                 type="submit"
                 value="📌 Current Location"
