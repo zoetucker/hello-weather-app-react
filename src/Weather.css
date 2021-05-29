@@ -10,6 +10,11 @@
   margin: 15px 20px;
 }
 
+.Weather #click-button:hover {
+  color: green;
+  background-color: white;
+}
+
 .Weather .current-location {
   text-align: right;
 }
