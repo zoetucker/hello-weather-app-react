@@ -23,14 +23,14 @@ export default function UnitConversion(props) {
         <span className="current-temp">{Math.round(props.fahrenheit)}</span>
         <div className="temp-units">
           <span className="fahrenheit-unit">
-            <a href="/" onClick={convertToFahrenheit}>
+            <span href="#" onClick={convertToFahrenheit}>
               °F |
-            </a>
+            </span>
           </span>
           <span className="celsius-unit">
-            <a href="/" onClick={convertToCelsius}>
+            <span href="#" onClick={convertToCelsius}>
               °C
-            </a>
+            </span>
           </span>
         </div>
       </div>
@@ -41,14 +41,14 @@ export default function UnitConversion(props) {
         <span className="current-temp">{Math.round(showCelsius())}</span>
         <div className="temp-units">
           <span className="fahrenheit-unit">
-            <a href="" onClick={convertToFahrenheit}>
+            <span href="#" onClick={convertToFahrenheit}>
               °F |
-            </a>
+            </span>
           </span>
           <span className="celsius-unit">
-            <a href="" onClick={convertToCelsius}>
+            <span href="#" onClick={convertToCelsius}>
               °C
-            </a>
+            </span>
           </span>
         </div>
       </div>

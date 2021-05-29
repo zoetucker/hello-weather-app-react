@@ -18,7 +18,11 @@ function App() {
             GitHub
           </a>{" "}
           and hosted on{" "}
-          <a href="/" target="_blank" rel="noreferrer">
+          <a
+            href="https://cocky-bhabha-b5346f.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             Netlify
           </a>
         </footer>
