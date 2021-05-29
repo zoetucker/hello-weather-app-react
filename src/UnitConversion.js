@@ -23,12 +23,12 @@ export default function UnitConversion(props) {
         <span className="current-temp">{Math.round(props.fahrenheit)}</span>
         <div className="temp-units">
           <span className="fahrenheit-unit">
-            <a href="" onClick={convertToFahrenheit}>
+            <a href="/" onClick={convertToFahrenheit}>
               °F |
             </a>
           </span>
           <span className="celsius-unit">
-            <a href="" onClick={convertToCelsius}>
+            <a href="/" onClick={convertToCelsius}>
               °C
             </a>
           </span>
