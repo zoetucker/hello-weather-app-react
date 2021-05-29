@@ -35,12 +35,17 @@
   list-style: none;
 }
 
-.Weather .current-icon {
+.Weather canvas {
+  margin: 10px 0 0 55px;
+}
+
+.Weather .current-temp-block {
+  margin: 0;
+  padding: 0;
   display: inline-block;
-  height: 65px;
-  margin: 0 10px 0 20px;
   position: relative;
-  bottom: 15px;
+  left: 155px;
+  bottom: 90px;
 }
 
 .Weather .current-temp {
@@ -63,8 +68,9 @@
 }
 
 .Weather .forecast {
-  margin: 10px;
-  padding: 10px;
+  margin: 0;
+  padding: 0;
+
   text-align: center;
 }
 

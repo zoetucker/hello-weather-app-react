@@ -16,20 +16,24 @@ export default function WeatherInfo(props) {
       </div>
       <div className="row">
         <div className="col-6">
-          <div className="current-icon">
-            <WeatherIcon code={props.data.icon} size={52} />
-          </div>
+          <div className="Clearfix">
+            <div className="float-left">
+              <WeatherIcon code={props.data.weatherIcon} size={70} />
+            </div>
 
-          <span className="current-temp">
-            {Math.round(props.data.temperature)}
-          </span>
-          <div className="temp-units">
-            <span className="fahrenheit-unit">
-              <a href="">°F |</a>
-            </span>
-            <span className="celsius-unit">
-              <a href="">°C</a>
-            </span>
+            <div className="current-temp-block">
+              <span className="current-temp">
+                {Math.round(props.data.temperature)}
+              </span>
+              <div className="temp-units">
+                <span className="fahrenheit-unit">
+                  <a href="">°F |</a>
+                </span>
+                <span className="celsius-unit">
+                  <a href="">°C</a>
+                </span>
+              </div>
+            </div>
           </div>
         </div>
 
