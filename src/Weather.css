@@ -58,12 +58,9 @@
   font-size: 12px;
 }
 
-.Weather .units {
-  cursor: pointer;
-}
-
 .Weather .units:hover {
-  color: rebeccapurple;
+  color: red;
+  cursor: pointer;
 }
 
 .Weather a {
