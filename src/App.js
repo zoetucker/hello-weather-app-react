@@ -19,7 +19,7 @@ function App() {
           </a>{" "}
           and hosted on{" "}
           <a
-            href="https://cocky-bhabha-b5346f.netlify.app/"
+            href="https://serene-poitras-151a5b.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
