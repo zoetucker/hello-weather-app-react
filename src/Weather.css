@@ -41,7 +41,7 @@
 }
 
 .Weather canvas {
-  margin: 50px 10px 10px 55px;
+  margin: 10px auto;
 }
 
 .Weather .current-temp {
