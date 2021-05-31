@@ -80,21 +80,3 @@
   left: 30px;
   text-align: left;
 }
-
-.Weather .forecast {
-  margin: 10px auto;
-  text-align: center;
-  position: relative;
-  bottom: 30px;
-}
-
-.Weather h5 {
-  font-size: 15px;
-  font-weight: 400;
-}
-
-.Weather h4 {
-  font-size: 13px;
-  font-weight: 500;
-  padding-top: 10px;
-}

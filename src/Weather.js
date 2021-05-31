@@ -71,64 +71,6 @@ export default function Weather(props) {
         </form>
 
         <WeatherInfo data={weatherData} />
-
-        <div className="forecast">
-          <div className="row">
-            <div className="col">
-              <h5>Thurs</h5>
-              <img
-                src="https://ssl.gstatic.com/onebox/weather/48/sunny.png"
-                alt="clear-sky"
-              />
-              <h4> 70° 80°</h4>
-            </div>
-
-            <div className="col">
-              <h5>Fri</h5>
-              <img
-                src="https://ssl.gstatic.com/onebox/weather/48/sunny.png"
-                alt="clear-sky"
-              />
-              <h4> 70° 80°</h4>
-            </div>
-
-            <div className="col">
-              <h5>Sat</h5>
-              <img
-                src="https://ssl.gstatic.com/onebox/weather/48/sunny.png"
-                alt="clear-sky"
-              />
-              <h4> 70° 80°</h4>
-            </div>
-
-            <div className="col">
-              <h5>Sun</h5>
-              <img
-                src="https://ssl.gstatic.com/onebox/weather/48/sunny.png"
-                alt="clear-sky"
-              />
-              <h4> 70° 80°</h4>
-            </div>
-
-            <div className="col">
-              <h5>Mon</h5>
-              <img
-                src="https://ssl.gstatic.com/onebox/weather/48/sunny.png"
-                alt="clear-sky"
-              />
-              <h4> 70° 80°</h4>
-            </div>
-
-            <div className="col">
-              <h5>Tue</h5>
-              <img
-                src="https://ssl.gstatic.com/onebox/weather/48/sunny.png"
-                alt="clear-sky"
-              />
-              <h4> 70° 80°</h4>
-            </div>
-          </div>
-        </div>
       </div>
     );
   } else {
