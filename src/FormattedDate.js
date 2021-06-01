@@ -41,7 +41,7 @@ export default function FomattedDate(props) {
 
   return (
     <div>
-      {month} {day} {date} {year} <br /> Last update at {hours}:{minutes}
+      {month} {day} {date}, {year} <br /> Last update at {hours}:{minutes}
     </div>
   );
 }
