@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather defaultCity="Bangkok" />
+        <Weather defaultCity="Khon Kaen" />
         <footer>
           The project is coded by Zoe Tucker 👩‍💻 <br />
           and is open-source on{" "}
